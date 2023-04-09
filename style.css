@@ -1,46 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
 html {
     height: 100%;
+    background-image: linear-gradient(to bottom right, #e6e0c4, #aaebe6 )
 }
 
 header {
     display: flex;
+    flex: full-width;
     justify-content: space-between;
     align-items: center;
+    width: 100%; 
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #aaebe6, #e6e0c4); 
 }
 
 #logo {
-    width: 200px;
+    width: 300px;
 }
 /* Navigation Bar */
+
+a {
+    color: black;
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    padding-right: 100px;
-    
+    padding: 1rem;
+    padding-right: 100px;    
 }
 
 ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    background-color: aquamarine;
+    background-color: #fea32d;
     border-radius: 15px;
 }
 
 li {
     padding: 3rem;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-size: 3rem; 
 }
 
 li:hover {
-    background-color: #ffc3a0;
+    background-color: #fe5347;
     border-radius: 15px;
 }
 
-/* BODY */
-body {
-    min-height: 100%;
-    background-image: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
-    background-size: cover;
-  }
-
-
+li.active {
+    border: 5px solid #fe5347;
+    border-radius: 15px;
+}
