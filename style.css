@@ -16,8 +16,6 @@ body {
     background-image: linear-gradient(to bottom right, #e6e0c4, #aaebe6);
 }
 
-
-
 /* Header */
 header {
     display: flex;
@@ -71,6 +69,32 @@ li.active {
     border: 5px solid #fe5347;
     border-radius: 15px;
 }
+
+/* Videos */
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    padding: 1rem;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.video-description {
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 /* Mobile and Tablet */
 @media screen and (min-width: 481px) and (max-width:825px){
@@ -148,5 +172,9 @@ li.active {
         font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
         white-space: nowrap; 
         padding: 0.6rem;  
+    }
+
+    iframe {
+        width: 100%;
     }
 }
