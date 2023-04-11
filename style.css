@@ -368,7 +368,7 @@ iframe {
         padding: 1rem 0 1rem;
     }
 
-    ul {
+    nav ul {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
@@ -408,6 +408,8 @@ iframe {
         margin-bottom: 2rem;
     }
 
+    
+
 /* Home Page */
 #homepage {
     display: flex;
@@ -429,4 +431,10 @@ iframe {
     padding: 1rem;
 }
 
+.blogs li {
+    padding: 2rem;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;  
+    white-space:inherit; 
+}
 }
