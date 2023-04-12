@@ -55,6 +55,11 @@ p {
     padding: 1rem;
 }
 /* blog  */
+
+a #gohome {
+    margin-bottom: 20px;
+}
+
 #gohome {
     display:block;
     width: 200px;
@@ -66,8 +71,11 @@ p {
     text-decoration: none;
     border: solid black;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 15px;
 }
+
+
 
 .blogs ul {
     display: flex;
@@ -436,5 +444,12 @@ iframe {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;  
     white-space:inherit; 
+}
+
+.blogimg {
+    width: 100%;
+    float: left;
+    margin-right: 1rem;
+    border: solid black;    
 }
 }
