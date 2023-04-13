@@ -1,4 +1,4 @@
-# Readme.md
+# READ ME
 ## URL to published portfolio website:
 https://maximillian-pichlmann-t1-a2.vercel.app/
 
