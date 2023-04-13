@@ -19,26 +19,26 @@ To demonstrate my abilities as a developer and a designer, as well as to showcas
 * The 'Contact' page contains links to all of my relevant professional and social accounts, displayed with easily recogniseable logos and sub headings underneath, all of which can be clicked in order to visit the desired page. Similar to the navbar, these graphical/text links contain animations that inform the user which link they are about to click on. 
 
 ### Sitemap 
-<img title="Sitemap" src="./docs/Sitemap.jpg">
+<img title="Sitemap" src="https://i.imgur.com/7ElwwE3.jpg">
 
 ### Screenshots
 #### Desktop Home Screen
-<img title="Desktop_Home_Screenshot.jpg" src="./docs/Desktop_Home_Screenshot.jpg">
+<img title="Desktop_Home_Screenshot.jpg" src="https://i.imgur.com/RCiiLD6.jpg">
 
 #### Tablet Home Screen
-<img title="Tablet_Home_Screenshot.jpg" src="./docs/Tablet_Home_Screenshot.jpg">
+<img title="Tablet_Home_Screenshot.jpg" src="https://i.imgur.com/pmkLdmP.jpg">
 
 #### Mobile Home Screen
-<img title="Mobile_Home_Screenshot.jpg" src="./docs/Mobile_Home_Screenshot.jpg">
+<img title="Mobile_Home_Screenshot.jpg" src="https://i.imgur.com/0fBAhz4.jpg">
 
 #### Desktop Skills Screen
-<img title="Desktop_Skills_Screenshot.jpg" src="./docs/Desktop_Skills_Screenshot.jpg">
+<img title="Desktop_Skills_Screenshot.jpg" src="https://i.imgur.com/IWLWMKf.jpg">
 
 #### Tablet Skills Screen
-<img title="Tablet_Skills_Screenshot.jpg" src="./docs/Tablet_Skills_Screenshot.jpg">
+<img title="Tablet_Skills_Screenshot.jpg" src="https://i.imgur.com/5nBToD2.jpg">
 
 #### Mobile Skills Screen
-<img title="Mobile_Skills_Screenshot.jpg" src="./docs/Mobile_Skills_Screenshot.jpg">
+<img title="Mobile_Skills_Screenshot.jpg" src="https://i.imgur.com/bxUwrkw.jpg">
 
 ### Target Audience 
 Prospective employers and clients as well as fellow developers and designers who are open to collaboration.
