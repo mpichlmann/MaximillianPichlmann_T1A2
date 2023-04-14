@@ -1,9 +1,12 @@
 # READ ME
-## URL to published portfolio website:
+## Link (URL) to published portfolio website:
 https://maximillian-pichlmann-t1-a2.vercel.app/
 
-## Link to my github repository
+## Link (URL) to my github repository
 https://github.com/mpichlmann/MaximillianPichlmann_T1A2
+
+## Link (URL) to video presentation of portfolio website
+https://www.youtube.com/watch?v=qloemryENHw
 
 ## Description of my portfolio website
 ### Purpose
