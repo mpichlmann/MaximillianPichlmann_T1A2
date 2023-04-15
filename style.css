@@ -1,3 +1,4 @@
+/* Main Styles for whole website: Fonts, sizes, alignment, etc */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
@@ -33,7 +34,7 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
-/* Home Page */
+/* Home Page Styling */
 #homepage {
     display: flex;
     align-items: center;
@@ -54,7 +55,7 @@ p {
 #description {
     padding: 1rem;
 }
-/* blog  */
+/* Blog list and Blog post styling */
 
 a #gohome {
     margin-bottom: 20px;
@@ -139,7 +140,7 @@ a #gohome {
     white-space: nowrap;   
 }
 
-/* About */
+/* Skills Styling */
 main {
     display: flex;
     justify-content: center;
@@ -168,7 +169,7 @@ h3 {
     
 }
 
-/* Contact Me */
+/* Contact Me Styling */
 .about-container {
     display: flex; 
     justify-content: center;
@@ -215,6 +216,8 @@ header {
     border: 2px solid black;
     background-image: linear-gradient(to right, #aaebe6, #e6e0c4); 
 }
+
+/* Logo */
 
 #logo {
     width: 300px;
@@ -289,7 +292,7 @@ iframe {
     margin-bottom: 1rem;
 }
 
-/* Tablet */
+/* Tablet Styling */
 @media screen and (min-width: 481px) and (max-width:825px){
     #logo {
         padding-top: 20px;
@@ -368,7 +371,7 @@ iframe {
    
 }
 
-/* Mobile */
+/* Mobile Styling */
 
 @media screen and (max-width: 480px){
    header {
@@ -432,7 +435,6 @@ iframe {
 
     
 
-/* Home Page */
 #homepage {
     display: flex;
     align-items: center;
