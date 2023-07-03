@@ -37,6 +37,7 @@ p {
 /* Home Page Styling */
 #homepage {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -47,12 +48,15 @@ p {
 
 #me {
     width: 30%;
+    height: 30%;
     border-radius: 50%;
     margin: 1rem;
     border: solid black;
 }
 
 #description {
+    width: 60%;
+    flex: 1;
     padding: 1rem;
 }
 /* Blog list and Blog post styling */
@@ -143,18 +147,21 @@ a #gohome {
 /* Skills Styling */
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-main img {
+#skill {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
 
+
 main article {
-    width: 33%;
+    width: 400px;
+    min-width: 100px;
     font-family: Helvetica, sans-serif;
     font-size: 1rem;
 }
@@ -175,7 +182,7 @@ h3 {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    padding: 200px;
+    padding: 0;
     margin-bottom: 2rem;
    
 }
@@ -242,12 +249,12 @@ nav ul {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
-    background-color: #fea32d;
+    background-image: linear-gradient(to right, #ffcc89, #e07f00);
     border-radius: 15px;
 }
 
 nav li {
-    padding: 3rem;
+    padding: 2rem;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     font-size: 2.5rem;  
     white-space: nowrap;   
