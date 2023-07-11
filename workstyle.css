@@ -287,17 +287,26 @@ iframe {
 /* Mobile Styling */
 
 @media screen and (max-width: 480px){
+    #worksarticle {
+        width: 100%;
+        padding: 0;
+    }
+
+    article {
+        width: 100%;
+    }
+
     #wholecontainer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     
     #imgcontainer {
         display: flex;
         flex-direction: column;
-        width: 80%;
-        padding: 1rem;
+        width: 100%;
     }
     
     #textcontainer {
@@ -307,8 +316,8 @@ iframe {
         flex-direction: column;
         font-family: Helvetica, sans-serif;
         list-style-position: inside;
-        text-align: left;
-        max-width: 80%;
+        /* text-align: left; */
+        max-width: 95%;
     }
 
 
@@ -361,17 +370,6 @@ iframe {
         margin: 0;
     }
 
-    main {
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    } 
-
-    main article {
-        width: 90%;
-        margin-bottom: 2rem;
-    }
 
     #description {
         width: 90%;
