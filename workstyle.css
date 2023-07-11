@@ -46,6 +46,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 #imgcontainer {
