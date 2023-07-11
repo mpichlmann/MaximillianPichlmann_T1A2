@@ -29,52 +29,52 @@ h2 {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
 }
 
-p {
-    /* padding: 1rem; */
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-}
-
-#someskills {
-    padding-bottom: 1rem;
-}
-
-
-
-/* Skills Styling */
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-#skill {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-
-main article {
-    width: 400px;
-    min-width: 100px;
-    font-family: Helvetica, sans-serif;
-    font-size: 1rem;
-}
-
 h3 {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-#resume {
-    font-size: 2rem;
-    padding-bottom: 2rem;
-    
+p {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 
-/* Contact Me Styling */
+/* CODE PROJECTS */
+
+
+#wholecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imgcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+}
+
+#textcontainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    list-style-position: inside;
+    text-align: left;
+    max-width: 80%;
+}
+
+a {
+    word-break: break-all;
+}
+
+
+
+
+
+
 
 /* Footer */
 footer {
@@ -122,6 +122,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
+    padding: 0;
     background-image: linear-gradient(to right, #ffcc89, #e07f00);
     border-radius: 15px;
 }
@@ -147,10 +148,60 @@ li.active {
     
 }
 
+/* Videos */
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 
+article {
+    padding: 1rem;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.video-description {
+    text-decoration: none;
+}
+
+iframe {
+    margin-bottom: 1rem;
+}
 
 /* Tablet Styling */
 @media screen and (min-width: 481px) and (max-width:825px){
+    #wholecontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #imgcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 1rem;
+    }
+    
+    #textcontainer {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: Helvetica, sans-serif;
+        list-style-position: inside;
+        text-align: left;
+        max-width: 80%;
+    }
+
+
+
+
     #logo {
         padding-top: 20px;
     }
@@ -189,21 +240,43 @@ li.active {
         padding: 1.4rem;  
     }
 
-  
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);  
+    }
+
+    .about-item-1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    .about-item-2 {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    
+    .about-item-3 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    
+    .about-item-4 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
 
     main {
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     } 
 
-    main article {
+    /* main article {
         width: 40%;
         margin-bottom: 2rem;
-    }
-
-
+    } */
 
     #description {
         width: 90%;
@@ -214,6 +287,33 @@ li.active {
 /* Mobile Styling */
 
 @media screen and (max-width: 480px){
+    #wholecontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #imgcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 1rem;
+    }
+    
+    #textcontainer {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: Helvetica, sans-serif;
+        list-style-position: inside;
+        text-align: left;
+        max-width: 80%;
+    }
+
+
+
+
    header {
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -267,10 +367,6 @@ li.active {
         align-items: center;
         width: 100%;
     } 
-
-    #skill {
-        width: 55%;
-    }
 
     main article {
         width: 90%;
