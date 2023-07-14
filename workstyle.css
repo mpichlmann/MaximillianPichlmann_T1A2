@@ -71,6 +71,10 @@ a {
     word-break: break-all;
 }
 
+p {
+    padding-bottom: 1rem;
+}
+
 
 
 
@@ -180,6 +184,7 @@ iframe {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%
     }
     
     #imgcontainer {
@@ -198,6 +203,10 @@ iframe {
         list-style-position: inside;
         text-align: left;
         max-width: 80%;
+    }
+
+    #worksarticle {
+        width: 100%;
     }
 
 
