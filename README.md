@@ -5,9 +5,6 @@ https://maximillian-pichlmann-t1-a2.vercel.app/
 ## Link (URL) to my github repository
 https://github.com/mpichlmann/MaximillianPichlmann_T1A2
 
-## Link (URL) to video presentation of portfolio website
-https://www.youtube.com/watch?v=qloemryENHw
-
 ## Description of my portfolio website
 ### Purpose
 To demonstrate my abilities as a developer and a designer, as well as to showcase some of my best work and highlight my skills. My portfolio will also share my interests, hobbies, experiences and who I am as a person. 
