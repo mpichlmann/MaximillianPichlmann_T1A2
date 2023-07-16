@@ -71,8 +71,12 @@ a {
     word-break: break-all;
 }
 
-p {
+#textcontainer p {
     padding-bottom: 1rem;
+}
+
+#wholecontainer img {
+    max-width: 600px;
 }
 
 
