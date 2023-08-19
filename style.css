@@ -240,7 +240,8 @@ a {
 nav {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;    
+    padding: 1rem; 
+       
 }
 
 nav ul {
@@ -257,7 +258,8 @@ nav li {
     padding: 2rem;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     font-size: 2.5rem;  
-    white-space: nowrap;   
+    white-space: nowrap;
+      
 }
 
 nav li:hover {
