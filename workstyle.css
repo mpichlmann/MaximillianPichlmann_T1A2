@@ -32,6 +32,7 @@ h2 {
 h3 {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 2rem;
 }
 
 p {
@@ -76,10 +77,18 @@ a {
 }
 
 #wholecontainer img {
-    max-width: 600px;
+    
+    max-width: 400px;
 }
 
+.bullet-list {
+    list-style-position: outside;
+    padding-left: 0.5rem;
+}
 
+.bullet-list li {
+    padding-bottom: 0.5rem;
+}
 
 
 
@@ -184,6 +193,11 @@ iframe {
 
 /* Tablet Styling */
 @media screen and (min-width: 481px) and (max-width:825px){
+    
+    #wholecontainer img {
+        max-width: none; /* Reset the max-width property */
+    }
+
     #wholecontainer {
         display: flex;
         flex-direction: column;
@@ -301,6 +315,11 @@ iframe {
 /* Mobile Styling */
 
 @media screen and (max-width: 480px){
+
+    #wholecontainer img {
+        max-width: none; /* Reset the max-width property */
+    }
+
     #worksarticle {
         width: 100%;
         padding: 0;

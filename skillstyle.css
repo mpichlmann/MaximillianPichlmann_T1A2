@@ -42,6 +42,15 @@ p {
 
 
 /* Skills Styling */
+.bullet-list {
+    list-style-position: outside;
+    padding: 1rem;
+}
+
+.bullet-list li {
+    padding-bottom: 0.5rem;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
