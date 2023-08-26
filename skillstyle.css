@@ -98,7 +98,7 @@ footer {
     background-image: linear-gradient(to right, #aaebe6, #e6e0c4);
     color: black;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* Header */
